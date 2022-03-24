@@ -1,7 +1,7 @@
 import React from 'react';
 import sprite from "../../images/sprite.svg";
 
-const ToggleModal = ({toggleModal }) => {
+const ToggleModal = ({ toggleModal }) => {
     return (
         <svg
         className="icon"

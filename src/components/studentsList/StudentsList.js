@@ -52,7 +52,6 @@ const StudentsList = ({
                 ))}
               </tr>
             </thead>
-            {/* <tbody className="studentsList_body"> */}
               {students.map((student, index) => (
                 <StudentsInfo
                   key={index}
@@ -60,8 +59,7 @@ const StudentsList = ({
                   index={index}
                   toggleSelectStudent={toggleSelect}
                 />
-              ))}
-            {/* </tbody> */}
+              ))}           
           </table>
           <StudentsArchive students={students} studentsData={studentsData} />
           <Pagination

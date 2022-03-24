@@ -28,7 +28,7 @@ const Students = () => {
         }
       };
     console.log('result', result)
-      const [fetchStudents, isStudentsDataLoading, errorStudentsData] = useFetching(
+      const [fetchStudents, isStudentsLoading] = useFetching(
         async (limit, page) => {
           const { sortBy, sortDir } = sort;
           const { data, totalPages } = await getStudents({
@@ -58,7 +58,7 @@ const Students = () => {
         setPage(newValue);
       };
     
-      const toggleSelectStudent = (index, selected) => {
+      const toggleSelect = (index, selected) => {
         const newStudents = result.students.map((item, idx) => {
           if (idx === index) {
             return { ...item, selected };
@@ -91,7 +91,7 @@ const Students = () => {
                 Export CSV
             </button>
         </div>
-        {isStudentsDataLoading ? (
+        {isStudentsLoading ? (
         <div>
         
         </div>
@@ -104,7 +104,7 @@ const Students = () => {
          limit={limit}
          setLimit={setLimit}
          changeSort={changeSort}
-         toggleSelectStudent={toggleSelectStudent}
+         toggleSelectStudent={toggleSelect}
         />
       )}
         </StudentsStyled>
