@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/454.5817a379.chunk.js","mappings":"sJAQA,UANmB,WACf,OACI,eAAIA,UAAU,WAAd","sources":["pages/ArchivePage.js"],"sourcesContent":["import React from 'react';\r\n\r\nconst ArhivePage = () => {\r\n    return (\r\n        <h2 className=\"navTitle\">Arhive</h2>\r\n    );\r\n}\r\n\r\nexport default ArhivePage;"],"names":["className"],"sourceRoot":""}

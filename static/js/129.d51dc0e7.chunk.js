@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmemoria_press_app=self.webpackChunkmemoria_press_app||[]).push([[129],{8129:function(e,s,a){a.r(s);a(2791);var n=a(184);s.default=function(){return(0,n.jsx)("h2",{className:"navTitle",children:"Students"})}}}]);
+//# sourceMappingURL=129.d51dc0e7.chunk.js.map

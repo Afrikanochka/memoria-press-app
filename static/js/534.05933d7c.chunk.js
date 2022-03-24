@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmemoria_press_app=self.webpackChunkmemoria_press_app||[]).push([[534],{2534:function(e,s,a){a.r(s);a(2791);var r=a(184);s.default=function(){return(0,r.jsx)("h2",{className:"navTitle",children:"Gradebooks"})}}}]);
+//# sourceMappingURL=534.05933d7c.chunk.js.map

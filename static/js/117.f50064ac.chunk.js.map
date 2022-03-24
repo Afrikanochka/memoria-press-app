@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/117.f50064ac.chunk.js","mappings":"uJAQA,UANqB,WACjB,OACI,eAAIA,UAAU,WAAd","sources":["pages/TeachersPage.js"],"sourcesContent":["import React from 'react'\r\n\r\nconst TeachersPage = () => {\r\n    return (\r\n        <h2 className=\"navTitle\">Teachers</h2>\r\n    );\r\n}\r\n\r\nexport default TeachersPage;"],"names":["className"],"sourceRoot":""}
